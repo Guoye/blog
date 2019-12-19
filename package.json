@@ -1,0 +1,32 @@
+{
+  "name": "Guoye-blog",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "hexo generate",
+    "clean": "hexo clean",
+    "deploy": "hexo deploy",
+    "server": "hexo server",
+    "start": "hexo server -p 4001",
+    "start2": "pm2 start --name blog hexo -- s",
+    "stop": "pm2 stop blog",
+    "delete": "pm2 delete blog",
+    "status": "pm2 status blog",
+    "restart": "pm2 restart blog"
+  },
+  "hexo": {
+    "version": "4.1.1"
+  },
+  "dependencies": {
+    "hexo": "^4.0.0",
+    "hexo-deployer-rsync": "^1.0.0",
+    "hexo-generator-archive": "^1.0.0",
+    "hexo-generator-category": "^1.0.0",
+    "hexo-generator-index": "^1.0.0",
+    "hexo-generator-tag": "^1.0.0",
+    "hexo-renderer-ejs": "^1.0.0",
+    "hexo-renderer-marked": "^2.0.0",
+    "hexo-renderer-stylus": "^1.1.0",
+    "hexo-server": "^1.0.0"
+  }
+}
