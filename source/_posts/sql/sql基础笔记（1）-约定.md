@@ -1,5 +1,7 @@
 ---
 title: sql基础笔记（1）-约定
+categories:
+  - sql
 date: 2019-12-19 16:14:09
 tags:
 ---
