@@ -5,7 +5,7 @@ categories:
 date: 2019-12-31 15:15:29
 tags:
 ---
-@[toc](Nginx 配置大文件上传)
+
 # nginx问题
 遇到的问题：
 - Nginx: 413 – Request Entity Too Large Error and Solution
